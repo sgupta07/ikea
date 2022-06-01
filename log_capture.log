@@ -1,0 +1,1595 @@
+2021/12/21 17:04:12  [*] Awaiting file modification event
+2021/12/21 17:05:10  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2 - Copy.log
+2021/12/21 17:05:10  [x] Time:  2021-12-21 17:05:11 +0530 IST
+2021/12/21 17:05:10  [x] Type:  WRITE
+2021/12/21 17:05:10  [x] Size:  0
+2021/12/21 17:05:10  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2 - Copy.log.zip
+2021/12/21 17:05:10 0
+2021/12/21 17:05:10 Bucket and Hostname : locallin07001234
+2021/12/21 17:05:10 File Name: output2 - Copy.log.zip
+2021/12/21 17:05:10 File Path: output2 - Copy.log.zip
+2021/12/21 17:05:10  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2 - Copy.log
+2021/12/21 17:05:10  [x] Time:  2021-12-21 17:05:11 +0530 IST
+2021/12/21 17:05:10  [x] Type:  WRITE
+2021/12/21 17:05:10  [x] Size:  2260
+2021/12/21 17:05:10  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2 - Copy.log.zip
+2021/12/21 17:05:10 531
+2021/12/21 17:05:10 Bucket and Hostname : locallin07001234
+2021/12/21 17:05:10 File Name: output2 - Copy.log.zip
+2021/12/21 17:05:10 File Path: output2 - Copy.log.zip
+2021/12/21 17:05:11 file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/Zips/output2%20-%20Copy.log.zip
+2021/12/21 17:05:11 file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/Zips/output2%20-%20Copy.log.zip
+2021/12/21 17:11:18  [*] Awaiting file modification event
+2021/12/21 17:11:19 Waiting for bucket "locallin07001234" to be created...
+2021/12/21 17:11:19 Bucket "locallin07001234" successfully created
+2021/12/21 17:11:19 {
+
+}
+2021/12/21 17:11:19 InvalidArgument: 'DaysAfterInitiation' must be a positive integer.
+	status code: 400, request id: b7cf2c0d-6f7b-1f71-ae2f-043f72cf2ffa, host id: 
+2021/12/21 17:11:20 {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 17:11:20 <nil>
+2021/12/21 17:11:20 &{{<nil> 0xc000114200 <nil> 0x1250a40 <nil> 0xc0002c0bc0 <nil> 0x184f6e0 0xc0000ab5d0 0xc0000ce0a8 0xc0000ab5d8 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0000854d8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x11b47e0} {core.ValidateParametersHandler 0x11b48e0} {__anonymous 0x1222e80}] 0x1162220} {[{__anonymous 0x121dc80} {core.SDKVersionUserAgentHandler 0x1162720} {core.AddHostExecEnvUserAgentHander 0x11b49a0} {awssdk.restxml.Build 0x11cf3e0} {__anonymous 0x1223000} {__anonymous 0x12230a0} {contentMd5Handler 0x11cea60}] 0x1162220} {[{awssdk.restxml.Build 0x11cf3e0}] <nil>} {[{core.BuildContentLengthHandler 0x11b3bc0} {v4.SignRequestHandler 0x117eca0} {__anonymous 0x1221b40}] <nil>} {[{awssdk.client.LogRequest 0x116d6a0} {core.ValidateReqSigHandler 0x11b3f40} {core.SendHandler 0x11b40c0} {awssdk.client.LogResponse 0x116dd20}] <nil>} {[{core.ValidateResponseHandler 0x11b4320}] <nil>} {[{awssdk.restxml.Unmarshal 0x11cf840}] <nil>} {[{awssdk.restxml.Unmarshal 0x11cf840}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x11cfc40}] <nil>} {[{__anonymous 0x1223b00} {awssdk.s3.errorHandler 0x11cff60}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x11b44c0}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 17:11:20.0460004 +0530 IST m=+1.746164201 0xc0000f1780 0xc0002e4600 <nil> 0xc0002ad500 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "",
+    Rule: {
+      DefaultRetention: {
+        Days: 0,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0000a5d60}
+2021/12/21 17:11:20 {
+
+}
+2021/12/21 17:14:29  [*] Awaiting file modification event
+2021/12/21 17:14:30 Waiting for bucket "locallin07001234" to be created...
+2021/12/21 17:14:30 Bucket "locallin07001234" successfully created
+2021/12/21 17:14:31 {
+
+}
+2021/12/21 17:14:31 InvalidArgument: 'DaysAfterInitiation' must be a positive integer.
+	status code: 400, request id: 36d8a657-80eb-1d94-aed5-b8599f9de5b0, host id: 
+2021/12/21 17:14:31 {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 17:14:31 <nil>
+2021/12/21 17:14:31 &{{<nil> 0xc000194200 <nil> 0xe30a40 <nil> 0xc00033ebc0 <nil> 0x142f6e0 0xc00012b5d0 0xc00014e0a8 0xc00012b5d8 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000105678 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0xd947e0} {core.ValidateParametersHandler 0xd948e0} {__anonymous 0xe02e80}] 0xd42220} {[{__anonymous 0xdfdc80} {core.SDKVersionUserAgentHandler 0xd42720} {core.AddHostExecEnvUserAgentHander 0xd949a0} {awssdk.restxml.Build 0xdaf3e0} {__anonymous 0xe03000} {__anonymous 0xe030a0} {contentMd5Handler 0xdaea60}] 0xd42220} {[{awssdk.restxml.Build 0xdaf3e0}] <nil>} {[{core.BuildContentLengthHandler 0xd93bc0} {v4.SignRequestHandler 0xd5eca0} {__anonymous 0xe01b40}] <nil>} {[{awssdk.client.LogRequest 0xd4d6a0} {core.ValidateReqSigHandler 0xd93f40} {core.SendHandler 0xd940c0} {awssdk.client.LogResponse 0xd4dd20}] <nil>} {[{core.ValidateResponseHandler 0xd94320}] <nil>} {[{awssdk.restxml.Unmarshal 0xdaf840}] <nil>} {[{awssdk.restxml.Unmarshal 0xdaf840}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0xdafc40}] <nil>} {[{__anonymous 0xe03b00} {awssdk.s3.errorHandler 0xdaff60}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0xd944c0}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 17:14:31.3657462 +0530 IST m=+1.780986701 0xc00052b280 0xc00052c800 <nil> 0xc000509230 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "",
+    Rule: {
+      DefaultRetention: {
+        Days: 0,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000530640}
+2021/12/21 17:14:31 {
+
+}
+2021/12/21 17:20:35  [*] Awaiting file modification event
+2021/12/21 17:20:35 Waiting for bucket "locallin07001234" to be created...
+2021/12/21 17:20:36 Bucket "locallin07001234" successfully created
+2021/12/21 17:20:36 {
+
+}
+2021/12/21 17:20:36 InvalidArgument: 'DaysAfterInitiation' must be a positive integer.
+	status code: 400, request id: 28a947c2-d995-1cda-88e7-0c42a1b8b94e, host id: 
+2021/12/21 17:20:36 {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 17:20:36 <nil>
+2021/12/21 17:20:36 0
+2021/12/21 17:20:36 &{{<nil> 0xc000140200 <nil> 0x990a40 <nil> 0xc0002ecbd0 <nil> 0xf8f6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0002ba2f8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x8f47e0} {core.ValidateParametersHandler 0x8f48e0} {__anonymous 0x962e80}] 0x8a2220} {[{__anonymous 0x95dc80} {core.SDKVersionUserAgentHandler 0x8a2720} {core.AddHostExecEnvUserAgentHander 0x8f49a0} {awssdk.restxml.Build 0x90f3e0} {__anonymous 0x963000} {__anonymous 0x9630a0} {contentMd5Handler 0x90ea60}] 0x8a2220} {[{awssdk.restxml.Build 0x90f3e0}] <nil>} {[{core.BuildContentLengthHandler 0x8f3bc0} {v4.SignRequestHandler 0x8beca0} {__anonymous 0x961b40}] <nil>} {[{awssdk.client.LogRequest 0x8ad6a0} {core.ValidateReqSigHandler 0x8f3f40} {core.SendHandler 0x8f40c0} {awssdk.client.LogResponse 0x8add20}] <nil>} {[{core.ValidateResponseHandler 0x8f4320}] <nil>} {[{awssdk.restxml.Unmarshal 0x90f840}] <nil>} {[{awssdk.restxml.Unmarshal 0x90f840}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x90fc40}] <nil>} {[{__anonymous 0x963b00} {awssdk.s3.errorHandler 0x90ff60}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x8f44c0}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 17:20:36.7416919 +0530 IST m=+1.704736101 0xc000499100 0xc0004ac400 <nil> 0xc0004a0e40 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "",
+    Rule: {
+      DefaultRetention: {
+        Days: 0,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000486600}
+2021/12/21 17:20:36 {
+
+}
+2021/12/21 17:22:42 main.go:182:  [*] Awaiting file modification event
+2021/12/21 17:22:43 main.go:286: Waiting for bucket "locallin07001234" to be created...
+2021/12/21 17:22:43 main.go:295: Bucket "locallin07001234" successfully created
+2021/12/21 17:22:43 main.go:319: {
+
+}
+2021/12/21 17:22:43 main.go:320: InvalidArgument: 'DaysAfterInitiation' must be a positive integer.
+	status code: 400, request id: 8b9aebbd-aa20-1fc8-a8cd-0c42a1b8b97e, host id: 
+2021/12/21 17:22:44 main.go:328: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 17:22:44 main.go:329: <nil>
+2021/12/21 17:22:44 main.go:330: 0
+2021/12/21 17:22:44 main.go:342: &{{<nil> 0xc000140200 <nil> 0xb00ba0 <nil> 0xc0002ecbd0 <nil> 0x10ff6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0002ba2f8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0xa64920} {core.ValidateParametersHandler 0xa64a20} {__anonymous 0xad2fc0}] 0xa12360} {[{__anonymous 0xacddc0} {core.SDKVersionUserAgentHandler 0xa12860} {core.AddHostExecEnvUserAgentHander 0xa64ae0} {awssdk.restxml.Build 0xa7f520} {__anonymous 0xad3140} {__anonymous 0xad31e0} {contentMd5Handler 0xa7eba0}] 0xa12360} {[{awssdk.restxml.Build 0xa7f520}] <nil>} {[{core.BuildContentLengthHandler 0xa63d00} {v4.SignRequestHandler 0xa2ede0} {__anonymous 0xad1c80}] <nil>} {[{awssdk.client.LogRequest 0xa1d7e0} {core.ValidateReqSigHandler 0xa64080} {core.SendHandler 0xa64200} {awssdk.client.LogResponse 0xa1de60}] <nil>} {[{core.ValidateResponseHandler 0xa64460}] <nil>} {[{awssdk.restxml.Unmarshal 0xa7f980}] <nil>} {[{awssdk.restxml.Unmarshal 0xa7f980}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0xa7fd80}] <nil>} {[{__anonymous 0xad3c40} {awssdk.s3.errorHandler 0xa800a0}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0xa64600}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 17:22:44.2369706 +0530 IST m=+1.708168601 0xc0004b6900 0xc0004ce000 <nil> 0xc0004928d0 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "",
+    Rule: {
+      DefaultRetention: {
+        Days: 0,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000488480}
+2021/12/21 17:22:44 main.go:343: {
+
+}
+2021/12/21 17:28:26 main.go:184:  [*] Awaiting file modification event
+2021/12/21 17:28:27 main.go:288: Waiting for bucket "locallin07001234" to be created...
+2021/12/21 17:28:27 main.go:297: Bucket "locallin07001234" successfully created
+2021/12/21 17:28:27 main.go:321: {
+
+}
+2021/12/21 17:28:27 main.go:322: <nil>
+2021/12/21 17:28:27 main.go:330: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 17:28:27 main.go:331: <nil>
+2021/12/21 17:28:27 main.go:332: 30
+2021/12/21 17:28:27 main.go:344: &{{<nil> 0xc000142200 <nil> 0x12a0bc0 <nil> 0xc0002ecbd0 <nil> 0x189f6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000136498 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x1204920} {core.ValidateParametersHandler 0x1204a20} {__anonymous 0x1272fc0}] 0x11b2360} {[{__anonymous 0x126ddc0} {core.SDKVersionUserAgentHandler 0x11b2860} {core.AddHostExecEnvUserAgentHander 0x1204ae0} {awssdk.restxml.Build 0x121f520} {__anonymous 0x1273140} {__anonymous 0x12731e0} {contentMd5Handler 0x121eba0}] 0x11b2360} {[{awssdk.restxml.Build 0x121f520}] <nil>} {[{core.BuildContentLengthHandler 0x1203d00} {v4.SignRequestHandler 0x11cede0} {__anonymous 0x1271c80}] <nil>} {[{awssdk.client.LogRequest 0x11bd7e0} {core.ValidateReqSigHandler 0x1204080} {core.SendHandler 0x1204200} {awssdk.client.LogResponse 0x11bde60}] <nil>} {[{core.ValidateResponseHandler 0x1204460}] <nil>} {[{awssdk.restxml.Unmarshal 0x121f980}] <nil>} {[{awssdk.restxml.Unmarshal 0x121f980}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x121fd80}] <nil>} {[{__anonymous 0x1273c40} {awssdk.s3.errorHandler 0x12200a0}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x1204600}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 17:28:27.8546229 +0530 IST m=+1.812253401 0xc0004b6b00 0xc0004c0200 <nil> 0xc000492d20 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000488580}
+2021/12/21 17:28:27 main.go:345: {
+
+}
+2021/12/21 17:30:05 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2 - Copy.log
+2021/12/21 17:30:05 main.go:169:  [x] Time:  2021-12-21 17:30:06 +0530 IST
+2021/12/21 17:30:05 main.go:170:  [x] Type:  WRITE
+2021/12/21 17:30:05 main.go:171:  [x] Size:  0
+2021/12/21 17:30:05 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2 - Copy.log.zip
+2021/12/21 17:30:05 main.go:177:  Base Filename:  output2 - Copy.log
+2021/12/21 17:30:05 main.go:367: 0
+2021/12/21 17:30:05 main.go:369: Bucket and Hostname : locallin07001234
+2021/12/21 17:30:05 main.go:370: File Name: output2 - Copy.log.zip
+2021/12/21 17:30:05 main.go:371: File Path: output2 - Copy.log.zip
+2021/12/21 17:30:05 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2 - Copy.log
+2021/12/21 17:30:05 main.go:169:  [x] Time:  2021-12-21 17:30:06 +0530 IST
+2021/12/21 17:30:05 main.go:170:  [x] Type:  WRITE
+2021/12/21 17:30:05 main.go:171:  [x] Size:  2464
+2021/12/21 17:30:05 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2 - Copy.log.zip
+2021/12/21 17:30:05 main.go:177:  Base Filename:  output2 - Copy.log
+2021/12/21 17:30:05 main.go:367: 530
+2021/12/21 17:30:05 main.go:369: Bucket and Hostname : locallin07001234
+2021/12/21 17:30:05 main.go:370: File Name: output2 - Copy.log.zip
+2021/12/21 17:30:05 main.go:371: File Path: output2 - Copy.log.zip
+2021/12/21 17:30:06 main.go:388: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/Zips/output2%20-%20Copy.log.zip
+2021/12/21 17:30:06 main.go:388: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/Zips/output2%20-%20Copy.log.zip
+2021/12/21 17:34:54 main.go:184:  [*] Awaiting file modification event
+2021/12/21 17:34:55 main.go:288: Waiting for bucket "locallin07001234" to be created...
+2021/12/21 17:34:55 main.go:297: Bucket "locallin07001234" successfully created
+2021/12/21 17:34:56 main.go:321: {
+
+}
+2021/12/21 17:34:56 main.go:322: <nil>
+2021/12/21 17:34:56 main.go:330: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 17:34:56 main.go:331: <nil>
+2021/12/21 17:34:56 main.go:332: 30
+2021/12/21 17:34:56 main.go:344: &{{<nil> 0xc000114200 <nil> 0x6a0c20 <nil> 0xc0002c0bc0 <nil> 0xc9f6e0 0xc0000ab5d0 0xc0000ce0a8 0xc0000ab5d8 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000085338 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x604920} {core.ValidateParametersHandler 0x604a20} {__anonymous 0x672fc0}] 0x5b2360} {[{__anonymous 0x66ddc0} {core.SDKVersionUserAgentHandler 0x5b2860} {core.AddHostExecEnvUserAgentHander 0x604ae0} {awssdk.restxml.Build 0x61f520} {__anonymous 0x673140} {__anonymous 0x6731e0} {contentMd5Handler 0x61eba0}] 0x5b2360} {[{awssdk.restxml.Build 0x61f520}] <nil>} {[{core.BuildContentLengthHandler 0x603d00} {v4.SignRequestHandler 0x5cede0} {__anonymous 0x671c80}] <nil>} {[{awssdk.client.LogRequest 0x5bd7e0} {core.ValidateReqSigHandler 0x604080} {core.SendHandler 0x604200} {awssdk.client.LogResponse 0x5bde60}] <nil>} {[{core.ValidateResponseHandler 0x604460}] <nil>} {[{awssdk.restxml.Unmarshal 0x61f980}] <nil>} {[{awssdk.restxml.Unmarshal 0x61f980}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x61fd80}] <nil>} {[{__anonymous 0x673c40} {awssdk.s3.errorHandler 0x6200a0}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x604600}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 17:34:56.2947169 +0530 IST m=+1.806699901 0xc000026f00 0xc000066800 <nil> 0xc000021500 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000048580}
+2021/12/21 17:34:56 main.go:345: {
+
+}
+2021/12/21 17:35:18 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2 - Copy.log
+2021/12/21 17:35:18 main.go:169:  [x] Time:  2021-12-21 17:35:18 +0530 IST
+2021/12/21 17:35:18 main.go:170:  [x] Type:  WRITE
+2021/12/21 17:35:18 main.go:171:  [x] Size:  0
+2021/12/21 17:35:18 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2 - Copy.log.zip
+2021/12/21 17:35:18 main.go:177:  Base Filename:  output2 - Copy.log
+2021/12/21 17:35:18 main.go:367: 530
+2021/12/21 17:35:18 main.go:369: Bucket and Hostname : locallin07001234
+2021/12/21 17:35:18 main.go:370: File Name: output2 - Copy.log.zip
+2021/12/21 17:35:18 main.go:371: File Path: output2 - Copy.log.zip
+2021/12/21 17:35:18 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2 - Copy.log
+2021/12/21 17:35:18 main.go:169:  [x] Time:  2021-12-21 17:35:18 +0530 IST
+2021/12/21 17:35:18 main.go:170:  [x] Type:  WRITE
+2021/12/21 17:35:18 main.go:171:  [x] Size:  2668
+2021/12/21 17:35:18 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2 - Copy.log.zip
+2021/12/21 17:35:18 main.go:177:  Base Filename:  output2 - Copy.log
+2021/12/21 17:35:18 main.go:367: 532
+2021/12/21 17:35:18 main.go:369: Bucket and Hostname : locallin07001234
+2021/12/21 17:35:18 main.go:370: File Name: output2 - Copy.log.zip
+2021/12/21 17:35:18 main.go:371: File Path: output2 - Copy.log.zip
+2021/12/21 17:35:18 main.go:388: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2%20-%20Copy.log.zip
+2021/12/21 17:35:18 main.go:388: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2%20-%20Copy.log.zip
+2021/12/21 20:04:17 main.go:186:  [*] Awaiting file modification event
+2021/12/21 20:04:18 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/21 20:04:19 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/21 20:04:19 main.go:323: {
+
+}
+2021/12/21 20:04:19 main.go:324: <nil>
+2021/12/21 20:04:19 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 20:04:19 main.go:333: <nil>
+2021/12/21 20:04:19 main.go:334: 30
+2021/12/21 20:04:19 main.go:346: &{{<nil> 0xc000142200 <nil> 0x7e0c20 <nil> 0xc0002eabd0 <nil> 0xddf6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000136498 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x744920} {core.ValidateParametersHandler 0x744a20} {__anonymous 0x7b2fc0}] 0x6f2360} {[{__anonymous 0x7addc0} {core.SDKVersionUserAgentHandler 0x6f2860} {core.AddHostExecEnvUserAgentHander 0x744ae0} {awssdk.restxml.Build 0x75f520} {__anonymous 0x7b3140} {__anonymous 0x7b31e0} {contentMd5Handler 0x75eba0}] 0x6f2360} {[{awssdk.restxml.Build 0x75f520}] <nil>} {[{core.BuildContentLengthHandler 0x743d00} {v4.SignRequestHandler 0x70ede0} {__anonymous 0x7b1c80}] <nil>} {[{awssdk.client.LogRequest 0x6fd7e0} {core.ValidateReqSigHandler 0x744080} {core.SendHandler 0x744200} {awssdk.client.LogResponse 0x6fde60}] <nil>} {[{core.ValidateResponseHandler 0x744460}] <nil>} {[{awssdk.restxml.Unmarshal 0x75f980}] <nil>} {[{awssdk.restxml.Unmarshal 0x75f980}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x75fd80}] <nil>} {[{__anonymous 0x7b3c40} {awssdk.s3.errorHandler 0x7600a0}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x744600}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 20:04:19.653164 +0530 IST m=+2.007768501 0xc0000a6e80 0xc0000a8800 <nil> 0xc0000894d0 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000092560}
+2021/12/21 20:04:19 main.go:347: {
+
+}
+2021/12/21 20:05:42 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/21 20:05:42 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/21 20:05:42 main.go:323: {
+
+}
+2021/12/21 20:05:42 main.go:324: <nil>
+2021/12/21 20:05:43 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 20:05:43 main.go:333: <nil>
+2021/12/21 20:05:43 main.go:334: 30
+2021/12/21 20:05:43 main.go:346: &{{<nil> 0xc00011e200 <nil> 0x12f0b40 <nil> 0xc0002c8bc0 <nil> 0x18ef6e0 0xc0000bb5d0 0xc0000de0a8 0xc0000bb5d8 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000085678 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x1254920} {core.ValidateParametersHandler 0x1254a20} {__anonymous 0x12c2fc0}] 0x1202360} {[{__anonymous 0x12bddc0} {core.SDKVersionUserAgentHandler 0x1202860} {core.AddHostExecEnvUserAgentHander 0x1254ae0} {awssdk.restxml.Build 0x126f520} {__anonymous 0x12c3140} {__anonymous 0x12c31e0} {contentMd5Handler 0x126eba0}] 0x1202360} {[{awssdk.restxml.Build 0x126f520}] <nil>} {[{core.BuildContentLengthHandler 0x1253d00} {v4.SignRequestHandler 0x121ede0} {__anonymous 0x12c1c80}] <nil>} {[{awssdk.client.LogRequest 0x120d7e0} {core.ValidateReqSigHandler 0x1254080} {core.SendHandler 0x1254200} {awssdk.client.LogResponse 0x120de60}] <nil>} {[{core.ValidateResponseHandler 0x1254460}] <nil>} {[{awssdk.restxml.Unmarshal 0x126f980}] <nil>} {[{awssdk.restxml.Unmarshal 0x126f980}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x126fd80}] <nil>} {[{__anonymous 0x12c3c40} {awssdk.s3.errorHandler 0x12700a0}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x1254600}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 20:05:43.1167259 +0530 IST m=+2.154647601 0xc0003b4a40 0xc0003b6300 <nil> 0xc000388ab0 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0003b0340}
+2021/12/21 20:05:43 main.go:347: {
+
+}
+2021/12/21 20:05:43 main.go:186:  [*] Awaiting file modification event
+2021/12/21 20:06:46 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/21 20:06:46 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/21 20:06:47 main.go:323: {
+
+}
+2021/12/21 20:06:47 main.go:324: <nil>
+2021/12/21 20:06:47 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 20:06:47 main.go:333: <nil>
+2021/12/21 20:06:47 main.go:334: 30
+2021/12/21 20:06:47 main.go:346: &{{<nil> 0xc00013e200 <nil> 0x7a0b40 <nil> 0xc0002e6bd0 <nil> 0xd9f6e0 0xc00000b610 0xc0000060b8 0xc00000b618 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000308158 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x704920} {core.ValidateParametersHandler 0x704a20} {__anonymous 0x772fc0}] 0x6b2360} {[{__anonymous 0x76ddc0} {core.SDKVersionUserAgentHandler 0x6b2860} {core.AddHostExecEnvUserAgentHander 0x704ae0} {awssdk.restxml.Build 0x71f520} {__anonymous 0x773140} {__anonymous 0x7731e0} {contentMd5Handler 0x71eba0}] 0x6b2360} {[{awssdk.restxml.Build 0x71f520}] <nil>} {[{core.BuildContentLengthHandler 0x703d00} {v4.SignRequestHandler 0x6cede0} {__anonymous 0x771c80}] <nil>} {[{awssdk.client.LogRequest 0x6bd7e0} {core.ValidateReqSigHandler 0x704080} {core.SendHandler 0x704200} {awssdk.client.LogResponse 0x6bde60}] <nil>} {[{core.ValidateResponseHandler 0x704460}] <nil>} {[{awssdk.restxml.Unmarshal 0x71f980}] <nil>} {[{awssdk.restxml.Unmarshal 0x71f980}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x71fd80}] <nil>} {[{__anonymous 0x773c40} {awssdk.s3.errorHandler 0x7200a0}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x704600}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 20:06:47.5006848 +0530 IST m=+1.943347901 0xc00009ab00 0xc0000b2300 <nil> 0xc0000b4b40 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000088440}
+2021/12/21 20:06:47 main.go:347: {
+
+}
+2021/12/21 20:06:47 main.go:186:  [*] Awaiting file modification event
+2021/12/21 20:07:12 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/21 20:07:12 main.go:169:  [x] Time:  2021-12-21 20:07:12 +0530 IST
+2021/12/21 20:07:12 main.go:170:  [x] Type:  WRITE
+2021/12/21 20:07:12 main.go:171:  [x] Size:  1240
+2021/12/21 20:07:12 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/21 20:07:12 main.go:177:  Base Filename:  output2.log
+2021/12/21 20:07:12 main.go:369: 0
+2021/12/21 20:07:12 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/21 20:07:12 main.go:372: File Name: output2.log.zip
+2021/12/21 20:07:12 main.go:373: File Path: output2.log.zip
+2021/12/21 20:07:12 main.go:390: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2.log.zip
+2021/12/21 20:07:18 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/21 20:07:18 main.go:169:  [x] Time:  2021-12-21 20:07:18 +0530 IST
+2021/12/21 20:07:18 main.go:170:  [x] Type:  WRITE
+2021/12/21 20:07:18 main.go:171:  [x] Size:  1444
+2021/12/21 20:07:18 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/21 20:07:18 main.go:177:  Base Filename:  output2.log
+2021/12/21 20:07:18 main.go:369: 512
+2021/12/21 20:07:18 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/21 20:07:18 main.go:372: File Name: output2.log.zip
+2021/12/21 20:07:18 main.go:373: File Path: output2.log.zip
+2021/12/21 20:07:18 main.go:390: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2.log.zip
+2021/12/21 20:21:51 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/21 20:21:52 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/21 20:21:52 main.go:323: {
+
+}
+2021/12/21 20:21:52 main.go:324: <nil>
+2021/12/21 20:21:52 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/21 20:21:52 main.go:333: <nil>
+2021/12/21 20:21:52 main.go:334: 30
+2021/12/21 20:21:52 main.go:346: &{{<nil> 0xc000142200 <nil> 0x1320b40 <nil> 0xc0002ecbd0 <nil> 0x191f6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000136498 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x1284920} {core.ValidateParametersHandler 0x1284a20} {__anonymous 0x12f2fc0}] 0x1232360} {[{__anonymous 0x12eddc0} {core.SDKVersionUserAgentHandler 0x1232860} {core.AddHostExecEnvUserAgentHander 0x1284ae0} {awssdk.restxml.Build 0x129f520} {__anonymous 0x12f3140} {__anonymous 0x12f31e0} {contentMd5Handler 0x129eba0}] 0x1232360} {[{awssdk.restxml.Build 0x129f520}] <nil>} {[{core.BuildContentLengthHandler 0x1283d00} {v4.SignRequestHandler 0x124ede0} {__anonymous 0x12f1c80}] <nil>} {[{awssdk.client.LogRequest 0x123d7e0} {core.ValidateReqSigHandler 0x1284080} {core.SendHandler 0x1284200} {awssdk.client.LogResponse 0x123de60}] <nil>} {[{core.ValidateResponseHandler 0x1284460}] <nil>} {[{awssdk.restxml.Unmarshal 0x129f980}] <nil>} {[{awssdk.restxml.Unmarshal 0x129f980}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x129fd80}] <nil>} {[{__anonymous 0x12f3c40} {awssdk.s3.errorHandler 0x12a00a0}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x1284600}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-21 20:21:52.6413111 +0530 IST m=+1.872167601 0xc00009ac00 0xc0000b6500 <nil> 0xc00009ecf0 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000088420}
+2021/12/21 20:21:52 main.go:347: {
+
+}
+2021/12/21 20:21:52 main.go:186:  [*] Awaiting file modification event
+2021/12/21 20:22:27 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/21 20:22:27 main.go:169:  [x] Time:  2021-12-21 20:22:28 +0530 IST
+2021/12/21 20:22:27 main.go:170:  [x] Type:  WRITE
+2021/12/21 20:22:27 main.go:171:  [x] Size:  0
+2021/12/21 20:22:27 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/21 20:22:27 main.go:177:  Base Filename:  multithreadtest - Copy.log
+2021/12/21 20:22:27 main.go:369: 0
+2021/12/21 20:22:27 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/21 20:22:27 main.go:372: File Name: multithreadtest - Copy.log.zip
+2021/12/21 20:22:27 main.go:373: File Path: multithreadtest - Copy.log.zip
+2021/12/21 20:22:27 main.go:390: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log.zip
+2021/12/21 20:22:28 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/21 20:22:28 main.go:169:  [x] Time:  2021-12-21 20:22:29 +0530 IST
+2021/12/21 20:22:28 main.go:170:  [x] Type:  WRITE
+2021/12/21 20:22:28 main.go:171:  [x] Size:  45088775
+2021/12/21 20:22:28 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/21 20:22:28 main.go:177:  Base Filename:  multithreadtest - Copy.log
+2021/12/21 20:22:28 main.go:369: 0
+2021/12/21 20:22:28 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/21 20:22:28 main.go:372: File Name: multithreadtest - Copy.log.zip
+2021/12/21 20:22:28 main.go:373: File Path: multithreadtest - Copy.log.zip
+2021/12/21 20:22:28 main.go:390: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log.zip
+2021/12/22 19:24:12 main.go:289: Waiting for bucket "locallin07001234" to be created...
+2021/12/22 19:24:12 main.go:298: Bucket "locallin07001234" successfully created
+2021/12/22 19:24:12 main.go:322: {
+
+}
+2021/12/22 19:24:12 main.go:323: <nil>
+2021/12/22 19:24:13 main.go:331: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/22 19:24:13 main.go:332: <nil>
+2021/12/22 19:24:13 main.go:333: 30
+2021/12/22 19:24:13 main.go:345: &{{<nil> 0xc000136200 <nil> 0x54a700 <nil> 0xc0002d0ae0 <nil> 0xb424c0 0xc000015600 0xc000006098 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc00003de98 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x4ae700} {core.ValidateParametersHandler 0x4ae800} {__anonymous 0x51cda0}] 0x45c140} {[{__anonymous 0x517ba0} {core.SDKVersionUserAgentHandler 0x45c640} {core.AddHostExecEnvUserAgentHander 0x4ae8c0} {awssdk.restxml.Build 0x4c9300} {__anonymous 0x51cf20} {__anonymous 0x51cfc0} {contentMd5Handler 0x4c8980}] 0x45c140} {[{awssdk.restxml.Build 0x4c9300}] <nil>} {[{core.BuildContentLengthHandler 0x4adae0} {v4.SignRequestHandler 0x478bc0} {__anonymous 0x51ba60}] <nil>} {[{awssdk.client.LogRequest 0x4675c0} {core.ValidateReqSigHandler 0x4ade60} {core.SendHandler 0x4adfe0} {awssdk.client.LogResponse 0x467c40}] <nil>} {[{core.ValidateResponseHandler 0x4ae240}] <nil>} {[{awssdk.restxml.Unmarshal 0x4c9760}] <nil>} {[{awssdk.restxml.Unmarshal 0x4c9760}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x4c9b60}] <nil>} {[{__anonymous 0x51da20} {awssdk.s3.errorHandler 0x4c9e80}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x4ae3e0}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-22 19:24:13.0568476 +0530 IST m=+1.952500101 0xc00039ac80 0xc0003b6500 <nil> 0xc00039ee10 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000388480}
+2021/12/22 19:24:13 main.go:346: {
+
+}
+2021/12/22 19:24:13 main.go:185:  [*] Awaiting file modification event
+2021/12/22 19:24:49 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 19:24:49 main.go:168:  [x] Time:  2021-12-22 19:24:49 +0530 IST
+2021/12/22 19:24:49 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:24:49 main.go:170:  [x] Size:  0
+2021/12/22 19:24:49 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 19:24:49 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 19:24:49 main.go:368: 0
+2021/12/22 19:24:49 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:24:49 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 19:24:49 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 19:24:49 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/22 19:24:53 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 19:24:53 main.go:168:  [x] Time:  2021-12-22 19:24:54 +0530 IST
+2021/12/22 19:24:53 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:24:53 main.go:170:  [x] Size:  106747516
+2021/12/22 19:24:53 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 19:24:53 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 19:24:53 main.go:368: 106747516
+2021/12/22 19:24:53 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:24:53 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 19:24:53 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 19:26:18 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/22 19:38:57 main.go:289: Waiting for bucket "locallin07001234" to be created...
+2021/12/22 19:38:58 main.go:298: Bucket "locallin07001234" successfully created
+2021/12/22 19:38:58 main.go:322: {
+
+}
+2021/12/22 19:38:58 main.go:323: <nil>
+2021/12/22 19:38:58 main.go:331: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/22 19:38:58 main.go:332: <nil>
+2021/12/22 19:38:58 main.go:333: 30
+2021/12/22 19:38:58 main.go:345: &{{<nil> 0xc000142200 <nil> 0xdca700 <nil> 0xc0002dcae0 <nil> 0x13c24c0 0xc000015600 0xc000006098 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000136498 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0xd2e700} {core.ValidateParametersHandler 0xd2e800} {__anonymous 0xd9cda0}] 0xcdc140} {[{__anonymous 0xd97ba0} {core.SDKVersionUserAgentHandler 0xcdc640} {core.AddHostExecEnvUserAgentHander 0xd2e8c0} {awssdk.restxml.Build 0xd49300} {__anonymous 0xd9cf20} {__anonymous 0xd9cfc0} {contentMd5Handler 0xd48980}] 0xcdc140} {[{awssdk.restxml.Build 0xd49300}] <nil>} {[{core.BuildContentLengthHandler 0xd2dae0} {v4.SignRequestHandler 0xcf8bc0} {__anonymous 0xd9ba60}] <nil>} {[{awssdk.client.LogRequest 0xce75c0} {core.ValidateReqSigHandler 0xd2de60} {core.SendHandler 0xd2dfe0} {awssdk.client.LogResponse 0xce7c40}] <nil>} {[{core.ValidateResponseHandler 0xd2e240}] <nil>} {[{awssdk.restxml.Unmarshal 0xd49760}] <nil>} {[{awssdk.restxml.Unmarshal 0xd49760}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0xd49b60}] <nil>} {[{__anonymous 0xd9da20} {awssdk.s3.errorHandler 0xd49e80}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0xd2e3e0}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-22 19:38:58.7080696 +0530 IST m=+1.935941501 0xc00043cc40 0xc00043e500 <nil> 0xc000408f00 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000438420}
+2021/12/22 19:38:58 main.go:346: {
+
+}
+2021/12/22 19:38:58 main.go:185:  [*] Awaiting file modification event
+2021/12/22 19:39:32 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 19:39:32 main.go:168:  [x] Time:  2021-12-22 19:39:32 +0530 IST
+2021/12/22 19:39:32 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:39:32 main.go:170:  [x] Size:  0
+2021/12/22 19:39:32 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 19:39:32 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 19:39:32 main.go:368: 0
+2021/12/22 19:39:32 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:39:32 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 19:39:32 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 19:39:32 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/22 19:39:34 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 19:39:34 main.go:168:  [x] Time:  2021-12-22 19:39:34 +0530 IST
+2021/12/22 19:39:34 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:39:34 main.go:170:  [x] Size:  106747531
+2021/12/22 19:39:34 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 19:39:34 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 19:39:34 main.go:368: 106747531
+2021/12/22 19:39:34 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:39:34 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 19:39:34 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 19:40:42 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 19:40:42 main.go:168:  [x] Time:  2021-12-22 19:40:43 +0530 IST
+2021/12/22 19:40:42 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:40:42 main.go:170:  [x] Size:  0
+2021/12/22 19:40:42 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 19:40:42 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 19:40:42 main.go:368: 0
+2021/12/22 19:40:42 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:40:42 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 19:40:42 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 19:40:43 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/22 19:40:44 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 19:40:44 main.go:168:  [x] Time:  2021-12-22 19:40:45 +0530 IST
+2021/12/22 19:40:44 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:40:44 main.go:170:  [x] Size:  106747529
+2021/12/22 19:40:44 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 19:40:44 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 19:40:44 main.go:368: 106747529
+2021/12/22 19:40:44 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:40:44 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 19:40:44 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 19:42:19 main.go:386: MultipartUpload: upload multipart failed
+	upload id: MDBiMTA2MTYxNjQwMTgyMTc0MzYw
+caused by: RequestError: send request failed
+caused by: Put "http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log?partNumber=21&uploadId=MDBiMTA2MTYxNjQwMTgyMTc0MzYw": net/http: HTTP/1.x transport connection broken: http: ContentLength=1889931 with Body length 1889929
+2021/12/22 19:43:44 main.go:289: Waiting for bucket "locallin07001234" to be created...
+2021/12/22 19:43:45 main.go:298: Bucket "locallin07001234" successfully created
+2021/12/22 19:43:45 main.go:322: {
+
+}
+2021/12/22 19:43:45 main.go:323: <nil>
+2021/12/22 19:43:45 main.go:331: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/22 19:43:45 main.go:332: <nil>
+2021/12/22 19:43:45 main.go:333: 30
+2021/12/22 19:43:45 main.go:345: &{{<nil> 0xc000316100 <nil> 0xfea700 <nil> 0xc00031a9c0 <nil> 0x15e24c0 0xc000306310 0xc000300008 0xc000306318 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc00035c158 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0xf4e700} {core.ValidateParametersHandler 0xf4e800} {__anonymous 0xfbcda0}] 0xefc140} {[{__anonymous 0xfb7ba0} {core.SDKVersionUserAgentHandler 0xefc640} {core.AddHostExecEnvUserAgentHander 0xf4e8c0} {awssdk.restxml.Build 0xf69300} {__anonymous 0xfbcf20} {__anonymous 0xfbcfc0} {contentMd5Handler 0xf68980}] 0xefc140} {[{awssdk.restxml.Build 0xf69300}] <nil>} {[{core.BuildContentLengthHandler 0xf4dae0} {v4.SignRequestHandler 0xf18bc0} {__anonymous 0xfbba60}] <nil>} {[{awssdk.client.LogRequest 0xf075c0} {core.ValidateReqSigHandler 0xf4de60} {core.SendHandler 0xf4dfe0} {awssdk.client.LogResponse 0xf07c40}] <nil>} {[{core.ValidateResponseHandler 0xf4e240}] <nil>} {[{awssdk.restxml.Unmarshal 0xf69760}] <nil>} {[{awssdk.restxml.Unmarshal 0xf69760}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0xf69b60}] <nil>} {[{__anonymous 0xfbda20} {awssdk.s3.errorHandler 0xf69e80}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0xf4e3e0}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-22 19:43:45.7270462 +0530 IST m=+1.855494301 0xc0000e7600 0xc0002d2500 <nil> 0xc00029eff0 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0000a5a60}
+2021/12/22 19:43:45 main.go:346: {
+
+}
+2021/12/22 19:43:45 main.go:185:  [*] Awaiting file modification event
+2021/12/22 19:44:16 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 19:44:16 main.go:168:  [x] Time:  2021-12-22 19:44:16 +0530 IST
+2021/12/22 19:44:16 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:44:16 main.go:170:  [x] Size:  0
+2021/12/22 19:44:16 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 19:44:16 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 19:44:16 main.go:368: 0
+2021/12/22 19:44:16 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:44:16 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 19:44:16 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 19:44:16 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/22 19:44:20 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 19:44:20 main.go:168:  [x] Time:  2021-12-22 19:44:20 +0530 IST
+2021/12/22 19:44:20 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:44:20 main.go:170:  [x] Size:  106747504
+2021/12/22 19:44:20 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 19:44:20 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 19:44:20 main.go:368: 106747504
+2021/12/22 19:44:20 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:44:20 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 19:44:20 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 19:45:11 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/22 19:45:11 main.go:168:  [x] Time:  2021-12-22 19:45:12 +0530 IST
+2021/12/22 19:45:11 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:45:11 main.go:170:  [x] Size:  0
+2021/12/22 19:45:11 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/22 19:45:11 main.go:176:  Base Filename:  output2.log
+2021/12/22 19:45:11 main.go:368: 0
+2021/12/22 19:45:11 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:45:11 main.go:371: File Name: output2.log
+2021/12/22 19:45:11 main.go:372: File Path: output2.log
+2021/12/22 19:45:11 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/22 19:45:11 main.go:168:  [x] Time:  2021-12-22 19:45:12 +0530 IST
+2021/12/22 19:45:11 main.go:169:  [x] Type:  WRITE
+2021/12/22 19:45:11 main.go:170:  [x] Size:  2260
+2021/12/22 19:45:11 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/22 19:45:11 main.go:176:  Base Filename:  output2.log
+2021/12/22 19:45:11 main.go:368: 2260
+2021/12/22 19:45:11 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 19:45:11 main.go:371: File Name: output2.log
+2021/12/22 19:45:11 main.go:372: File Path: output2.log
+2021/12/22 19:45:13 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2.log
+2021/12/22 19:45:13 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2.log
+2021/12/22 19:46:29 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/22 20:01:27 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 20:01:27 main.go:168:  [x] Time:  2021-12-22 20:01:28 +0530 IST
+2021/12/22 20:01:27 main.go:169:  [x] Type:  WRITE
+2021/12/22 20:01:27 main.go:170:  [x] Size:  0
+2021/12/22 20:01:27 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 20:01:27 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 20:01:27 main.go:368: 0
+2021/12/22 20:01:27 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 20:01:27 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 20:01:27 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 20:01:28 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/22 20:01:28 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 20:01:28 main.go:168:  [x] Time:  2021-12-22 20:01:29 +0530 IST
+2021/12/22 20:01:28 main.go:169:  [x] Type:  WRITE
+2021/12/22 20:01:28 main.go:170:  [x] Size:  66846725
+2021/12/22 20:01:28 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 20:01:28 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 20:01:28 main.go:368: 66846725
+2021/12/22 20:01:28 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 20:01:28 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 20:01:28 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 20:01:29 main.go:167:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/22 20:01:29 main.go:168:  [x] Time:  2021-12-22 20:01:30 +0530 IST
+2021/12/22 20:01:29 main.go:169:  [x] Type:  WRITE
+2021/12/22 20:01:29 main.go:170:  [x] Size:  106747516
+2021/12/22 20:01:29 main.go:175:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/22 20:01:29 main.go:176:  Base Filename:  multithreadtest - Copy.log
+2021/12/22 20:01:29 main.go:368: 106747516
+2021/12/22 20:01:29 main.go:370: Bucket and Hostname : locallin07001234
+2021/12/22 20:01:29 main.go:371: File Name: multithreadtest - Copy.log
+2021/12/22 20:01:29 main.go:372: File Path: multithreadtest - Copy.log
+2021/12/22 20:02:04 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/22 20:02:16 main.go:389: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/23 13:24:59 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/23 13:24:59 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/23 13:24:59 main.go:323: {
+
+}
+2021/12/23 13:24:59 main.go:324: <nil>
+2021/12/23 13:24:59 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/23 13:24:59 main.go:333: <nil>
+2021/12/23 13:24:59 main.go:334: 30
+2021/12/23 13:24:59 main.go:346: &{{<nil> 0xc000140200 <nil> 0x10e0ac0 <nil> 0xc0002eabd0 <nil> 0x16df6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc00030c158 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x10448a0} {core.ValidateParametersHandler 0x10449a0} {__anonymous 0x10b2f40}] 0xff22e0} {[{__anonymous 0x10add40} {core.SDKVersionUserAgentHandler 0xff27e0} {core.AddHostExecEnvUserAgentHander 0x1044a60} {awssdk.restxml.Build 0x105f4a0} {__anonymous 0x10b30c0} {__anonymous 0x10b3160} {contentMd5Handler 0x105eb20}] 0xff22e0} {[{awssdk.restxml.Build 0x105f4a0}] <nil>} {[{core.BuildContentLengthHandler 0x1043c80} {v4.SignRequestHandler 0x100ed60} {__anonymous 0x10b1c00}] <nil>} {[{awssdk.client.LogRequest 0xffd760} {core.ValidateReqSigHandler 0x1044000} {core.SendHandler 0x1044180} {awssdk.client.LogResponse 0xffdde0}] <nil>} {[{core.ValidateResponseHandler 0x10443e0}] <nil>} {[{awssdk.restxml.Unmarshal 0x105f900}] <nil>} {[{awssdk.restxml.Unmarshal 0x105f900}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x105fd00}] <nil>} {[{__anonymous 0x10b3bc0} {awssdk.s3.errorHandler 0x1060020}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x1044580}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-23 13:24:59.8893503 +0530 IST m=+1.972476401 0xc00009ab00 0xc0000b2300 <nil> 0xc0000b4b40 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000088440}
+2021/12/23 13:24:59 main.go:347: {
+
+}
+2021/12/23 13:24:59 main.go:186:  [*] Awaiting file modification event
+2021/12/23 13:29:47 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/23 13:29:47 main.go:169:  [x] Time:  2021-12-23 13:29:47 +0530 IST
+2021/12/23 13:29:47 main.go:170:  [x] Type:  WRITE
+2021/12/23 13:29:47 main.go:171:  [x] Size:  0
+2021/12/23 13:29:47 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/23 13:29:47 main.go:177:  Base Filename:  output2.log
+2021/12/23 13:29:47 main.go:369: 0
+2021/12/23 13:29:47 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/23 13:29:47 main.go:372: File Name: output2.log
+2021/12/23 13:29:47 main.go:373: File Path: output2.log
+2021/12/23 13:29:48 main.go:390: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2.log
+2021/12/23 17:34:04 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/23 17:34:04 main.go:169:  [x] Time:  2021-12-23 17:34:05 +0530 IST
+2021/12/23 17:34:04 main.go:170:  [x] Type:  WRITE
+2021/12/23 17:34:04 main.go:171:  [x] Size:  2464
+2021/12/23 17:34:04 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/23 17:34:04 main.go:177:  Base Filename:  output2.log
+2021/12/23 17:34:04 main.go:369: 2464
+2021/12/23 17:34:04 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/23 17:34:04 main.go:372: File Name: output2.log
+2021/12/23 17:34:04 main.go:373: File Path: output2.log
+2021/12/23 17:34:04 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/23 17:34:12 main.go:390: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2.log
+2021/12/24 14:05:27 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/24 14:05:28 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/24 14:05:28 main.go:323: {
+
+}
+2021/12/24 14:05:28 main.go:324: <nil>
+2021/12/24 14:05:28 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/24 14:05:28 main.go:333: <nil>
+2021/12/24 14:05:28 main.go:334: 30
+2021/12/24 14:05:28 main.go:346: &{{<nil> 0xc000140200 <nil> 0x4e0ac0 <nil> 0xc0002eabd0 <nil> 0xadf6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0002ba2f8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x4448a0} {core.ValidateParametersHandler 0x4449a0} {__anonymous 0x4b2f40}] 0x3f22e0} {[{__anonymous 0x4add40} {core.SDKVersionUserAgentHandler 0x3f27e0} {core.AddHostExecEnvUserAgentHander 0x444a60} {awssdk.restxml.Build 0x45f4a0} {__anonymous 0x4b30c0} {__anonymous 0x4b3160} {contentMd5Handler 0x45eb20}] 0x3f22e0} {[{awssdk.restxml.Build 0x45f4a0}] <nil>} {[{core.BuildContentLengthHandler 0x443c80} {v4.SignRequestHandler 0x40ed60} {__anonymous 0x4b1c00}] <nil>} {[{awssdk.client.LogRequest 0x3fd760} {core.ValidateReqSigHandler 0x444000} {core.SendHandler 0x444180} {awssdk.client.LogResponse 0x3fdde0}] <nil>} {[{core.ValidateResponseHandler 0x4443e0}] <nil>} {[{awssdk.restxml.Unmarshal 0x45f900}] <nil>} {[{awssdk.restxml.Unmarshal 0x45f900}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x45fd00}] <nil>} {[{__anonymous 0x4b3bc0} {awssdk.s3.errorHandler 0x460020}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x444580}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-24 14:05:28.8440821 +0530 IST m=+2.026278901 0xc00009ac40 0xc0000b2500 <nil> 0xc0000b4e10 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0000884c0}
+2021/12/24 14:05:28 main.go:347: {
+
+}
+2021/12/24 14:05:28 main.go:186:  [*] Awaiting file modification event
+2021/12/24 14:05:56 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/24 14:05:56 main.go:169:  [x] Time:  2021-12-24 14:05:57 +0530 IST
+2021/12/24 14:05:56 main.go:170:  [x] Type:  WRITE
+2021/12/24 14:05:56 main.go:171:  [x] Size:  0
+2021/12/24 14:05:56 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/24 14:05:56 main.go:177:  Base Filename:  multithreadtest - Copy.log
+2021/12/24 14:05:56 main.go:369: 0
+2021/12/24 14:05:56 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/24 14:05:56 main.go:372: File Name: multithreadtest - Copy.log
+2021/12/24 14:05:56 main.go:373: File Path: multithreadtest - Copy.log
+2021/12/24 14:05:56 main.go:375: 75
+2021/12/24 14:05:56 main.go:392: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/24 14:05:56 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/24 14:05:56 main.go:169:  [x] Time:  2021-12-24 14:05:57 +0530 IST
+2021/12/24 14:05:56 main.go:170:  [x] Type:  WRITE
+2021/12/24 14:05:56 main.go:171:  [x] Size:  14680071
+2021/12/24 14:05:56 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/24 14:05:56 main.go:177:  Base Filename:  multithreadtest - Copy.log
+2021/12/24 14:05:56 main.go:369: 14942215
+2021/12/24 14:05:56 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/24 14:05:56 main.go:372: File Name: multithreadtest - Copy.log
+2021/12/24 14:05:56 main.go:373: File Path: multithreadtest - Copy.log
+2021/12/24 14:05:56 main.go:375: 75
+2021/12/24 14:05:59 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/24 14:05:59 main.go:169:  [x] Time:  2021-12-24 14:05:59 +0530 IST
+2021/12/24 14:05:59 main.go:170:  [x] Type:  WRITE
+2021/12/24 14:05:59 main.go:171:  [x] Size:  106747518
+2021/12/24 14:05:59 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/24 14:05:59 main.go:177:  Base Filename:  multithreadtest - Copy.log
+2021/12/24 14:05:59 main.go:369: 106747518
+2021/12/24 14:05:59 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/24 14:05:59 main.go:372: File Name: multithreadtest - Copy.log
+2021/12/24 14:05:59 main.go:373: File Path: multithreadtest - Copy.log
+2021/12/24 14:05:59 main.go:375: 78
+2021/12/24 14:06:18 main.go:392: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/24 14:07:20 main.go:392: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/multithreadtest%20-%20Copy.log
+2021/12/24 14:12:59 main.go:291: Waiting for bucket "locallin07001234" to be created...
+2021/12/24 14:12:59 main.go:300: Bucket "locallin07001234" successfully created
+2021/12/24 14:13:00 main.go:324: {
+
+}
+2021/12/24 14:13:00 main.go:325: <nil>
+2021/12/24 14:13:00 main.go:333: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/24 14:13:00 main.go:334: <nil>
+2021/12/24 14:13:00 main.go:335: 30
+2021/12/24 14:13:00 main.go:347: &{{<nil> 0xc000140200 <nil> 0x7d0ac0 <nil> 0xc0002ecbd0 <nil> 0xdcf6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0002b82f8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x7348a0} {core.ValidateParametersHandler 0x7349a0} {__anonymous 0x7a2f40}] 0x6e22e0} {[{__anonymous 0x79dd40} {core.SDKVersionUserAgentHandler 0x6e27e0} {core.AddHostExecEnvUserAgentHander 0x734a60} {awssdk.restxml.Build 0x74f4a0} {__anonymous 0x7a30c0} {__anonymous 0x7a3160} {contentMd5Handler 0x74eb20}] 0x6e22e0} {[{awssdk.restxml.Build 0x74f4a0}] <nil>} {[{core.BuildContentLengthHandler 0x733c80} {v4.SignRequestHandler 0x6fed60} {__anonymous 0x7a1c00}] <nil>} {[{awssdk.client.LogRequest 0x6ed760} {core.ValidateReqSigHandler 0x734000} {core.SendHandler 0x734180} {awssdk.client.LogResponse 0x6edde0}] <nil>} {[{core.ValidateResponseHandler 0x7343e0}] <nil>} {[{awssdk.restxml.Unmarshal 0x74f900}] <nil>} {[{awssdk.restxml.Unmarshal 0x74f900}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x74fd00}] <nil>} {[{__anonymous 0x7a3bc0} {awssdk.s3.errorHandler 0x750020}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x734580}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-24 14:13:00.3107703 +0530 IST m=+1.928302701 0xc00041aa00 0xc00041e200 <nil> 0xc000408a80 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000422300}
+2021/12/24 14:13:00 main.go:348: {
+
+}
+2021/12/24 14:13:00 main.go:187:  [*] Awaiting file modification event
+2021/12/24 14:13:14 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:13:14 main.go:170:  [x] Time:  2021-12-24 14:13:15 +0530 IST
+2021/12/24 14:13:14 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:13:14 main.go:172:  [x] Size:  0
+2021/12/24 14:13:14 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:13:14 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:13:14 main.go:370: 0
+2021/12/24 14:13:14 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:13:14 main.go:373: File Name: output2.log
+2021/12/24 14:13:14 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:13:14 main.go:378: h:14m:13s14
+2021/12/24 14:13:14 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:13:14 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:13:14 main.go:170:  [x] Time:  2021-12-24 14:13:15 +0530 IST
+2021/12/24 14:13:14 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:13:14 main.go:172:  [x] Size:  2668
+2021/12/24 14:13:14 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:13:14 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:13:14 main.go:370: 2668
+2021/12/24 14:13:14 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:13:14 main.go:373: File Name: output2.log
+2021/12/24 14:13:14 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:13:14 main.go:378: h:14m:13s14
+2021/12/24 14:13:14 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:13:15 main.go:395: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2.log
+2021/12/24 14:13:15 main.go:395: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/output2.log
+2021/12/24 14:14:56 main.go:291: Waiting for bucket "locallin07001234" to be created...
+2021/12/24 14:14:57 main.go:300: Bucket "locallin07001234" successfully created
+2021/12/24 14:14:57 main.go:324: {
+
+}
+2021/12/24 14:14:57 main.go:325: <nil>
+2021/12/24 14:14:57 main.go:333: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/24 14:14:57 main.go:334: <nil>
+2021/12/24 14:14:57 main.go:335: 30
+2021/12/24 14:14:57 main.go:347: &{{<nil> 0xc000140200 <nil> 0xa90ac0 <nil> 0xc0002ecbd0 <nil> 0x108f6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0002ba2f8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x9f48a0} {core.ValidateParametersHandler 0x9f49a0} {__anonymous 0xa62f40}] 0x9a22e0} {[{__anonymous 0xa5dd40} {core.SDKVersionUserAgentHandler 0x9a27e0} {core.AddHostExecEnvUserAgentHander 0x9f4a60} {awssdk.restxml.Build 0xa0f4a0} {__anonymous 0xa630c0} {__anonymous 0xa63160} {contentMd5Handler 0xa0eb20}] 0x9a22e0} {[{awssdk.restxml.Build 0xa0f4a0}] <nil>} {[{core.BuildContentLengthHandler 0x9f3c80} {v4.SignRequestHandler 0x9bed60} {__anonymous 0xa61c00}] <nil>} {[{awssdk.client.LogRequest 0x9ad760} {core.ValidateReqSigHandler 0x9f4000} {core.SendHandler 0x9f4180} {awssdk.client.LogResponse 0x9adde0}] <nil>} {[{core.ValidateResponseHandler 0x9f43e0}] <nil>} {[{awssdk.restxml.Unmarshal 0xa0f900}] <nil>} {[{awssdk.restxml.Unmarshal 0xa0f900}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0xa0fd00}] <nil>} {[{__anonymous 0xa63bc0} {awssdk.s3.errorHandler 0xa10020}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x9f4580}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-24 14:14:57.5968891 +0530 IST m=+1.878032301 0xc000386a00 0xc000398200 <nil> 0xc000388990 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0003a0300}
+2021/12/24 14:14:57 main.go:348: {
+
+}
+2021/12/24 14:14:57 main.go:187:  [*] Awaiting file modification event
+2021/12/24 14:15:28 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:15:28 main.go:170:  [x] Time:  2021-12-24 14:15:28 +0530 IST
+2021/12/24 14:15:28 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:15:28 main.go:172:  [x] Size:  0
+2021/12/24 14:15:28 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:15:28 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:15:28 main.go:370: 0
+2021/12/24 14:15:28 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:15:28 main.go:373: File Name: output2.log
+2021/12/24 14:15:28 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:15:28 main.go:378: h:14m:15s28
+2021/12/24 14:15:28 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:15:28 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:15:28 main.go:170:  [x] Time:  2021-12-24 14:15:28 +0530 IST
+2021/12/24 14:15:28 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:15:28 main.go:172:  [x] Size:  2872
+2021/12/24 14:15:28 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:15:28 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:15:28 main.go:370: 2872
+2021/12/24 14:15:28 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:15:28 main.go:373: File Name: output2.log
+2021/12/24 14:15:28 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:15:28 main.go:378: h:14m:15s28
+2021/12/24 14:15:28 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:15:28 shared.go:10: Error: InvalidArgument: Invalid Argument
+	status code: 400, request id: fc7f579b-7daf-1e40-88f1-043f72cf301a, host id: 
+2021/12/24 14:17:48 main.go:291: Waiting for bucket "locallin07001234" to be created...
+2021/12/24 14:17:49 main.go:300: Bucket "locallin07001234" successfully created
+2021/12/24 14:17:49 main.go:324: {
+
+}
+2021/12/24 14:17:49 main.go:325: <nil>
+2021/12/24 14:17:49 main.go:333: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/24 14:17:49 main.go:334: <nil>
+2021/12/24 14:17:49 main.go:335: 30
+2021/12/24 14:17:49 main.go:347: &{{<nil> 0xc000142200 <nil> 0x1070ac0 <nil> 0xc0002ecbd0 <nil> 0x166f6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000136498 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0xfd48a0} {core.ValidateParametersHandler 0xfd49a0} {__anonymous 0x1042f40}] 0xf822e0} {[{__anonymous 0x103dd40} {core.SDKVersionUserAgentHandler 0xf827e0} {core.AddHostExecEnvUserAgentHander 0xfd4a60} {awssdk.restxml.Build 0xfef4a0} {__anonymous 0x10430c0} {__anonymous 0x1043160} {contentMd5Handler 0xfeeb20}] 0xf822e0} {[{awssdk.restxml.Build 0xfef4a0}] <nil>} {[{core.BuildContentLengthHandler 0xfd3c80} {v4.SignRequestHandler 0xf9ed60} {__anonymous 0x1041c00}] <nil>} {[{awssdk.client.LogRequest 0xf8d760} {core.ValidateReqSigHandler 0xfd4000} {core.SendHandler 0xfd4180} {awssdk.client.LogResponse 0xf8dde0}] <nil>} {[{core.ValidateResponseHandler 0xfd43e0}] <nil>} {[{awssdk.restxml.Unmarshal 0xfef900}] <nil>} {[{awssdk.restxml.Unmarshal 0xfef900}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0xfefd00}] <nil>} {[{__anonymous 0x1043bc0} {awssdk.s3.errorHandler 0xff0020}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0xfd4580}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-24 14:17:49.6210687 +0530 IST m=+1.903450101 0xc00009ac80 0xc0000b2500 <nil> 0xc0000b4e70 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0000884c0}
+2021/12/24 14:17:49 main.go:348: {
+
+}
+2021/12/24 14:17:49 main.go:187:  [*] Awaiting file modification event
+2021/12/24 14:18:32 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:18:32 main.go:170:  [x] Time:  2021-12-24 14:18:33 +0530 IST
+2021/12/24 14:18:32 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:18:32 main.go:172:  [x] Size:  0
+2021/12/24 14:18:32 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:18:32 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:18:32 main.go:370: 0
+2021/12/24 14:18:32 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:18:32 main.go:373: File Name: output2.log
+2021/12/24 14:18:32 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:18:32 main.go:379: h:14m:18s32
+2021/12/24 14:18:32 main.go:380: 14
+2021/12/24 14:18:32 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:18:32 main.go:397: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/14/output2.log
+2021/12/24 14:22:06 main.go:291: Waiting for bucket "locallin07001234" to be created...
+2021/12/24 14:22:06 main.go:300: Bucket "locallin07001234" successfully created
+2021/12/24 14:22:07 main.go:324: {
+
+}
+2021/12/24 14:22:07 main.go:325: <nil>
+2021/12/24 14:22:07 main.go:333: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/24 14:22:07 main.go:334: <nil>
+2021/12/24 14:22:07 main.go:335: 30
+2021/12/24 14:22:07 main.go:347: &{{<nil> 0xc000140200 <nil> 0xb10ac0 <nil> 0xc0002eabd0 <nil> 0x110f6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc00030a158 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0xa748a0} {core.ValidateParametersHandler 0xa749a0} {__anonymous 0xae2f40}] 0xa222e0} {[{__anonymous 0xaddd40} {core.SDKVersionUserAgentHandler 0xa227e0} {core.AddHostExecEnvUserAgentHander 0xa74a60} {awssdk.restxml.Build 0xa8f4a0} {__anonymous 0xae30c0} {__anonymous 0xae3160} {contentMd5Handler 0xa8eb20}] 0xa222e0} {[{awssdk.restxml.Build 0xa8f4a0}] <nil>} {[{core.BuildContentLengthHandler 0xa73c80} {v4.SignRequestHandler 0xa3ed60} {__anonymous 0xae1c00}] <nil>} {[{awssdk.client.LogRequest 0xa2d760} {core.ValidateReqSigHandler 0xa74000} {core.SendHandler 0xa74180} {awssdk.client.LogResponse 0xa2dde0}] <nil>} {[{core.ValidateResponseHandler 0xa743e0}] <nil>} {[{awssdk.restxml.Unmarshal 0xa8f900}] <nil>} {[{awssdk.restxml.Unmarshal 0xa8f900}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0xa8fd00}] <nil>} {[{__anonymous 0xae3bc0} {awssdk.s3.errorHandler 0xa90020}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0xa74580}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-24 14:22:07.5995487 +0530 IST m=+2.412898701 0xc00043cd80 0xc00043e700 <nil> 0xc0004091d0 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0004384a0}
+2021/12/24 14:22:07 main.go:348: {
+
+}
+2021/12/24 14:22:07 main.go:187:  [*] Awaiting file modification event
+2021/12/24 14:22:42 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:22:42 main.go:170:  [x] Time:  2021-12-24 14:22:43 +0530 IST
+2021/12/24 14:22:42 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:22:42 main.go:172:  [x] Size:  0
+2021/12/24 14:22:42 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:22:42 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:22:42 main.go:370: 0
+2021/12/24 14:22:42 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:22:42 main.go:373: File Name: output2.log
+2021/12/24 14:22:42 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:22:42 main.go:381: h:14m:22s42
+2021/12/24 14:22:42 main.go:382: 14
+2021/12/24 14:22:42 main.go:383: 2021-12-24 14:22:42.9799229 +0530 IST m=+37.793311801
+2021/12/24 14:22:42 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:22:42 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:22:42 main.go:170:  [x] Time:  2021-12-24 14:22:43 +0530 IST
+2021/12/24 14:22:42 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:22:42 main.go:172:  [x] Size:  832
+2021/12/24 14:22:42 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:22:42 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:22:42 main.go:370: 832
+2021/12/24 14:22:42 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:22:42 main.go:373: File Name: output2.log
+2021/12/24 14:22:42 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:22:42 main.go:381: h:14m:22s42
+2021/12/24 14:22:42 main.go:382: 14
+2021/12/24 14:22:42 main.go:383: 2021-12-24 14:22:42.9870414 +0530 IST m=+37.800430301
+2021/12/24 14:22:42 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:22:43 main.go:400: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/14/output2.log
+2021/12/24 14:22:44 main.go:400: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/14/output2.log
+2021/12/24 14:26:35 main.go:291: Waiting for bucket "locallin07001234" to be created...
+2021/12/24 14:26:36 main.go:300: Bucket "locallin07001234" successfully created
+2021/12/24 14:26:36 main.go:324: {
+
+}
+2021/12/24 14:26:36 main.go:325: <nil>
+2021/12/24 14:26:36 main.go:333: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/24 14:26:36 main.go:334: <nil>
+2021/12/24 14:26:36 main.go:335: 30
+2021/12/24 14:26:36 main.go:347: &{{<nil> 0xc000140200 <nil> 0x960ac0 <nil> 0xc0002ecbd0 <nil> 0xf5f6e0 0xc000015600 0xc0000060b8 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0002ba2f8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x8c48a0} {core.ValidateParametersHandler 0x8c49a0} {__anonymous 0x932f40}] 0x8722e0} {[{__anonymous 0x92dd40} {core.SDKVersionUserAgentHandler 0x8727e0} {core.AddHostExecEnvUserAgentHander 0x8c4a60} {awssdk.restxml.Build 0x8df4a0} {__anonymous 0x9330c0} {__anonymous 0x933160} {contentMd5Handler 0x8deb20}] 0x8722e0} {[{awssdk.restxml.Build 0x8df4a0}] <nil>} {[{core.BuildContentLengthHandler 0x8c3c80} {v4.SignRequestHandler 0x88ed60} {__anonymous 0x931c00}] <nil>} {[{awssdk.client.LogRequest 0x87d760} {core.ValidateReqSigHandler 0x8c4000} {core.SendHandler 0x8c4180} {awssdk.client.LogResponse 0x87dde0}] <nil>} {[{core.ValidateResponseHandler 0x8c43e0}] <nil>} {[{awssdk.restxml.Unmarshal 0x8df900}] <nil>} {[{awssdk.restxml.Unmarshal 0x8df900}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x8dfd00}] <nil>} {[{__anonymous 0x933bc0} {awssdk.s3.errorHandler 0x8e0020}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x8c4580}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-24 14:26:36.6364697 +0530 IST m=+1.901581501 0xc0000278c0 0xc00030a600 <nil> 0xc0002d9710 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000049da0}
+2021/12/24 14:26:36 main.go:348: {
+
+}
+2021/12/24 14:26:36 main.go:187:  [*] Awaiting file modification event
+2021/12/24 14:26:48 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:26:48 main.go:170:  [x] Time:  2021-12-24 14:26:48 +0530 IST
+2021/12/24 14:26:48 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:26:48 main.go:172:  [x] Size:  0
+2021/12/24 14:26:48 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:26:48 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:26:48 main.go:370: 1036
+2021/12/24 14:26:48 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:26:48 main.go:373: File Name: output2.log
+2021/12/24 14:26:48 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:26:48 main.go:381: h:14m:26s48
+2021/12/24 14:26:48 main.go:382: 14
+2021/12/24 14:26:48 main.go:383: 12-24-2021
+2021/12/24 14:26:48 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:26:48 main.go:400: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/14/output2.log
+2021/12/24 14:27:26 main.go:291: Waiting for bucket "locallin07001234" to be created...
+2021/12/24 14:27:27 main.go:300: Bucket "locallin07001234" successfully created
+2021/12/24 14:27:27 main.go:324: {
+
+}
+2021/12/24 14:27:27 main.go:325: <nil>
+2021/12/24 14:27:27 main.go:333: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/24 14:27:27 main.go:334: <nil>
+2021/12/24 14:27:27 main.go:335: 30
+2021/12/24 14:27:27 main.go:347: &{{<nil> 0xc000114200 <nil> 0x990ac0 <nil> 0xc0002bebc0 <nil> 0xf8f6e0 0xc0000ab5d0 0xc0000ce0a8 0xc0000ab5d8 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0000854d8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x8f48a0} {core.ValidateParametersHandler 0x8f49a0} {__anonymous 0x962f40}] 0x8a22e0} {[{__anonymous 0x95dd40} {core.SDKVersionUserAgentHandler 0x8a27e0} {core.AddHostExecEnvUserAgentHander 0x8f4a60} {awssdk.restxml.Build 0x90f4a0} {__anonymous 0x9630c0} {__anonymous 0x963160} {contentMd5Handler 0x90eb20}] 0x8a22e0} {[{awssdk.restxml.Build 0x90f4a0}] <nil>} {[{core.BuildContentLengthHandler 0x8f3c80} {v4.SignRequestHandler 0x8bed60} {__anonymous 0x961c00}] <nil>} {[{awssdk.client.LogRequest 0x8ad760} {core.ValidateReqSigHandler 0x8f4000} {core.SendHandler 0x8f4180} {awssdk.client.LogResponse 0x8adde0}] <nil>} {[{core.ValidateResponseHandler 0x8f43e0}] <nil>} {[{awssdk.restxml.Unmarshal 0x90f900}] <nil>} {[{awssdk.restxml.Unmarshal 0x90f900}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x90fd00}] <nil>} {[{__anonymous 0x963bc0} {awssdk.s3.errorHandler 0x910020}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x8f4580}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-24 14:27:27.756364 +0530 IST m=+1.888132201 0xc00033abc0 0xc00033c500 <nil> 0xc000310de0 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0003363c0}
+2021/12/24 14:27:27 main.go:348: {
+
+}
+2021/12/24 14:27:27 main.go:187:  [*] Awaiting file modification event
+2021/12/24 14:28:22 main.go:169:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/24 14:28:22 main.go:170:  [x] Time:  2021-12-24 14:28:22 +0530 IST
+2021/12/24 14:28:22 main.go:171:  [x] Type:  WRITE
+2021/12/24 14:28:22 main.go:172:  [x] Size:  0
+2021/12/24 14:28:22 main.go:177:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/24 14:28:22 main.go:178:  Base Filename:  output2.log
+2021/12/24 14:28:22 main.go:370: 0
+2021/12/24 14:28:22 main.go:372: Bucket and Hostname : locallin07001234
+2021/12/24 14:28:22 main.go:373: File Name: output2.log
+2021/12/24 14:28:22 main.go:374: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/24 14:28:22 main.go:381: h:14m:28s22
+2021/12/24 14:28:22 main.go:382: 14
+2021/12/24 14:28:22 main.go:383: 12-24-2021
+2021/12/24 14:28:22 zip.go:20: ERROR open C:\Users\sgupta27\Documents\Zips\output2.log.zip: The process cannot access the file because it is being used by another process.
+2021/12/24 14:28:22 main.go:400: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/12-24-2021/14/output2.log
+2021/12/31 13:26:28 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/31 13:26:28 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/31 13:26:28 main.go:323: {
+
+}
+2021/12/31 13:26:28 main.go:324: <nil>
+2021/12/31 13:26:29 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/31 13:26:29 main.go:333: <nil>
+2021/12/31 13:26:29 main.go:334: 30
+2021/12/31 13:26:29 main.go:346: &{{<nil> 0xc000140200 <nil> 0x9da680 <nil> 0xc0002dcae0 <nil> 0xfd24c0 0xc000015600 0xc000006098 0xc000015608 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc0002ba2f8 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x93e680} {core.ValidateParametersHandler 0x93e780} {__anonymous 0x9acd20}] 0x8ec0c0} {[{__anonymous 0x9a7b20} {core.SDKVersionUserAgentHandler 0x8ec5c0} {core.AddHostExecEnvUserAgentHander 0x93e840} {awssdk.restxml.Build 0x959280} {__anonymous 0x9acea0} {__anonymous 0x9acf40} {contentMd5Handler 0x958900}] 0x8ec0c0} {[{awssdk.restxml.Build 0x959280}] <nil>} {[{core.BuildContentLengthHandler 0x93da60} {v4.SignRequestHandler 0x908b40} {__anonymous 0x9ab9e0}] <nil>} {[{awssdk.client.LogRequest 0x8f7540} {core.ValidateReqSigHandler 0x93dde0} {core.SendHandler 0x93df60} {awssdk.client.LogResponse 0x8f7bc0}] <nil>} {[{core.ValidateResponseHandler 0x93e1c0}] <nil>} {[{awssdk.restxml.Unmarshal 0x9596e0}] <nil>} {[{awssdk.restxml.Unmarshal 0x9596e0}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x959ae0}] <nil>} {[{__anonymous 0x9ad9a0} {awssdk.s3.errorHandler 0x959e00}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x93e360}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-31 13:26:29.2004835 +0530 IST m=+1.848000601 0xc00009ac40 0xc0000b2500 <nil> 0xc0000b4e10 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc0000884c0}
+2021/12/31 13:26:29 main.go:347: {
+
+}
+2021/12/31 13:26:29 main.go:186:  [*] Awaiting file modification event
+2021/12/31 13:26:42 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\multithreadtest - Copy.log
+2021/12/31 13:26:42 main.go:169:  [x] Time:  2021-12-31 13:26:43 +0530 IST
+2021/12/31 13:26:42 main.go:170:  [x] Type:  WRITE
+2021/12/31 13:26:42 main.go:171:  [x] Size:  106747518
+2021/12/31 13:26:42 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\multithreadtest - Copy.log.zip
+2021/12/31 13:26:42 main.go:177:  Base Filename:  multithreadtest - Copy.log
+2021/12/31 13:26:42 main.go:369: 106747518
+2021/12/31 13:26:42 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/31 13:26:42 main.go:372: File Name: multithreadtest - Copy.log
+2021/12/31 13:26:42 main.go:373: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/31 13:26:42 main.go:380: h:13m:26s42
+2021/12/31 13:26:42 main.go:381: 13
+2021/12/31 13:26:42 main.go:382: 12-31-2021
+2021/12/31 13:26:45 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/31 13:26:45 main.go:169:  [x] Time:  2021-12-31 13:26:45 +0530 IST
+2021/12/31 13:26:45 main.go:170:  [x] Type:  WRITE
+2021/12/31 13:26:45 main.go:171:  [x] Size:  1240
+2021/12/31 13:26:45 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/31 13:26:45 main.go:177:  Base Filename:  output2.log
+2021/12/31 13:26:45 main.go:369: 1240
+2021/12/31 13:26:45 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/31 13:26:45 main.go:372: File Name: output2.log
+2021/12/31 13:26:45 main.go:373: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/31 13:26:45 main.go:380: h:13m:26s45
+2021/12/31 13:26:45 main.go:381: 13
+2021/12/31 13:26:45 main.go:382: 12-31-2021
+2021/12/31 13:26:46 main.go:399: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/12-31-2021/13/output2.log
+2021/12/31 13:26:50 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/31 13:26:50 main.go:169:  [x] Time:  2021-12-31 13:26:51 +0530 IST
+2021/12/31 13:26:50 main.go:170:  [x] Type:  WRITE
+2021/12/31 13:26:50 main.go:171:  [x] Size:  0
+2021/12/31 13:26:50 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/31 13:26:50 main.go:177:  Base Filename:  output2.log
+2021/12/31 13:26:50 main.go:369: 0
+2021/12/31 13:26:50 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/31 13:26:50 main.go:372: File Name: output2.log
+2021/12/31 13:26:50 main.go:373: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/31 13:26:50 main.go:380: h:13m:26s50
+2021/12/31 13:26:50 main.go:381: 13
+2021/12/31 13:26:50 main.go:382: 12-31-2021
+2021/12/31 13:26:50 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/31 13:26:50 main.go:169:  [x] Time:  2021-12-31 13:26:51 +0530 IST
+2021/12/31 13:26:50 main.go:170:  [x] Type:  WRITE
+2021/12/31 13:26:50 main.go:171:  [x] Size:  1444
+2021/12/31 13:26:50 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/31 13:26:50 main.go:177:  Base Filename:  output2.log
+2021/12/31 13:26:50 main.go:369: 1444
+2021/12/31 13:26:50 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/31 13:26:50 main.go:372: File Name: output2.log
+2021/12/31 13:26:50 main.go:373: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/31 13:26:50 main.go:380: h:13m:26s50
+2021/12/31 13:26:50 main.go:381: 13
+2021/12/31 13:26:50 main.go:382: 12-31-2021
+2021/12/31 13:26:50 main.go:399: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/12-31-2021/13/output2.log
+2021/12/31 13:26:51 main.go:399: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/12-31-2021/13/output2.log
+2021/12/31 13:27:22 main.go:399: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/12-31-2021/13/multithreadtest%20-%20Copy.log
+2021/12/31 13:29:02 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/31 13:29:02 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/31 13:29:03 main.go:323: {
+
+}
+2021/12/31 13:29:03 main.go:324: <nil>
+2021/12/31 13:29:03 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/31 13:29:03 main.go:333: <nil>
+2021/12/31 13:29:03 main.go:334: 30
+2021/12/31 13:29:03 main.go:346: &{{<nil> 0xc000192200 <nil> 0x79a680 <nil> 0xc00032ead0 <nil> 0xd924c0 0xc0001295d0 0xc00014c088 0xc0001295d8 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000113338 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0x6fe680} {core.ValidateParametersHandler 0x6fe780} {__anonymous 0x76cd20}] 0x6ac0c0} {[{__anonymous 0x767b20} {core.SDKVersionUserAgentHandler 0x6ac5c0} {core.AddHostExecEnvUserAgentHander 0x6fe840} {awssdk.restxml.Build 0x719280} {__anonymous 0x76cea0} {__anonymous 0x76cf40} {contentMd5Handler 0x718900}] 0x6ac0c0} {[{awssdk.restxml.Build 0x719280}] <nil>} {[{core.BuildContentLengthHandler 0x6fda60} {v4.SignRequestHandler 0x6c8b40} {__anonymous 0x76b9e0}] <nil>} {[{awssdk.client.LogRequest 0x6b7540} {core.ValidateReqSigHandler 0x6fdde0} {core.SendHandler 0x6fdf60} {awssdk.client.LogResponse 0x6b7bc0}] <nil>} {[{core.ValidateResponseHandler 0x6fe1c0}] <nil>} {[{awssdk.restxml.Unmarshal 0x7196e0}] <nil>} {[{awssdk.restxml.Unmarshal 0x7196e0}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0x719ae0}] <nil>} {[{__anonymous 0x76d9a0} {awssdk.s3.errorHandler 0x719e00}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0x6fe360}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-31 13:29:03.3341169 +0530 IST m=+1.829161401 0xc000161640 0xc000354300 <nil> 0xc00031b2c0 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000123c40}
+2021/12/31 13:29:03 main.go:347: {
+
+}
+2021/12/31 13:29:03 main.go:186:  [*] Awaiting file modification event
+2021/12/31 13:29:24 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/31 13:29:24 main.go:169:  [x] Time:  2021-12-31 13:29:25 +0530 IST
+2021/12/31 13:29:24 main.go:170:  [x] Type:  WRITE
+2021/12/31 13:29:24 main.go:171:  [x] Size:  0
+2021/12/31 13:29:24 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/31 13:29:24 main.go:177:  Base Filename:  output2.log
+2021/12/31 13:29:24 main.go:369: 0
+2021/12/31 13:29:24 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/31 13:29:24 main.go:372: File Name: output2.log
+2021/12/31 13:29:24 main.go:373: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/31 13:29:24 main.go:380: h:13m:29s24
+2021/12/31 13:29:24 main.go:381: 13
+2021/12/31 13:29:24 main.go:382: 12-31-2021
+2021/12/31 13:29:24 main.go:399: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/12-31-2021/13/output2.log
+2021/12/31 13:30:02 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/31 13:30:02 main.go:169:  [x] Time:  2021-12-31 13:30:02 +0530 IST
+2021/12/31 13:30:02 main.go:170:  [x] Type:  WRITE
+2021/12/31 13:30:02 main.go:171:  [x] Size:  0
+2021/12/31 13:30:02 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/31 13:30:02 main.go:177:  Base Filename:  output2.log
+2021/12/31 13:30:02 main.go:369: 0
+2021/12/31 13:30:02 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/31 13:30:02 main.go:372: File Name: output2.log
+2021/12/31 13:30:02 main.go:373: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/31 13:30:02 main.go:380: h:13m:30s2
+2021/12/31 13:30:02 main.go:381: 13
+2021/12/31 13:30:02 main.go:382: 12-31-2021
+2021/12/31 13:30:02 main.go:168:  [x] Filename:  C:\Users\sgupta27\Documents\GCTILogs\app1\output2.log
+2021/12/31 13:30:02 main.go:169:  [x] Time:  2021-12-31 13:30:02 +0530 IST
+2021/12/31 13:30:02 main.go:170:  [x] Type:  WRITE
+2021/12/31 13:30:02 main.go:171:  [x] Size:  1852
+2021/12/31 13:30:02 main.go:176:  [x] Log output directory:  C:\Users\sgupta27\Documents\Zips\output2.log.zip
+2021/12/31 13:30:02 main.go:177:  Base Filename:  output2.log
+2021/12/31 13:30:02 main.go:369: 1852
+2021/12/31 13:30:02 main.go:371: Bucket and Hostname : locallin07001234
+2021/12/31 13:30:02 main.go:372: File Name: output2.log
+2021/12/31 13:30:02 main.go:373: File Path: C:/Users/sgupta27/Documents/GCTILogs/app1
+2021/12/31 13:30:02 main.go:380: h:13m:30s2
+2021/12/31 13:30:02 main.go:381: 13
+2021/12/31 13:30:02 main.go:382: 12-31-2021
+2021/12/31 13:30:02 main.go:399: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/12-31-2021/13/output2.log
+2021/12/31 13:30:02 main.go:399: file uploaded to, http://locallin07001234.s3-euseelm.cloudian.ikea.com/C%3A/Users/sgupta27/Documents/GCTILogs/app1/12-31-2021/13/output2.log
+2021/12/31 13:32:15 main.go:290: Waiting for bucket "locallin07001234" to be created...
+2021/12/31 13:32:15 main.go:299: Bucket "locallin07001234" successfully created
+2021/12/31 13:32:16 main.go:323: {
+
+}
+2021/12/31 13:32:16 main.go:324: <nil>
+2021/12/31 13:32:16 main.go:332: {
+  Rules: [{
+      AbortIncompleteMultipartUpload: {
+        DaysAfterInitiation: 15
+      },
+      Filter: {
+
+      },
+      ID: "ICSP-30Day-Cleanup",
+      NoncurrentVersionExpiration: {
+        NoncurrentDays: 1
+      },
+      Status: "Enabled"
+    }]
+}
+2021/12/31 13:32:16 main.go:333: <nil>
+2021/12/31 13:32:16 main.go:334: 30
+2021/12/31 13:32:16 main.go:346: &{{<nil> 0xc000142200 <nil> 0xdea680 <nil> 0xc0002deae0 <nil> 0x13e24c0 0xc00000b610 0xc000006098 0xc00000b618 <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc000134498 <nil> <nil> <nil> 2 0 <nil> <nil> <nil> <nil> legacy legacy} {s3 S3 2006-03-01  http://s3-euseelm.cloudian.ikea.com s3 euseelm   } {{[{core.ValidateEndpointHandler 0xd4e680} {core.ValidateParametersHandler 0xd4e780} {__anonymous 0xdbcd20}] 0xcfc0c0} {[{__anonymous 0xdb7b20} {core.SDKVersionUserAgentHandler 0xcfc5c0} {core.AddHostExecEnvUserAgentHander 0xd4e840} {awssdk.restxml.Build 0xd69280} {__anonymous 0xdbcea0} {__anonymous 0xdbcf40} {contentMd5Handler 0xd68900}] 0xcfc0c0} {[{awssdk.restxml.Build 0xd69280}] <nil>} {[{core.BuildContentLengthHandler 0xd4da60} {v4.SignRequestHandler 0xd18b40} {__anonymous 0xdbb9e0}] <nil>} {[{awssdk.client.LogRequest 0xd07540} {core.ValidateReqSigHandler 0xd4dde0} {core.SendHandler 0xd4df60} {awssdk.client.LogResponse 0xd07bc0}] <nil>} {[{core.ValidateResponseHandler 0xd4e1c0}] <nil>} {[{awssdk.restxml.Unmarshal 0xd696e0}] <nil>} {[{awssdk.restxml.Unmarshal 0xd696e0}] <nil>} {[{awssdk.restxml.UnmarshalMeta 0xd69ae0}] <nil>} {[{__anonymous 0xdbd9a0} {awssdk.s3.errorHandler 0xd69e00}] <nil>} {[] <nil>} {[{core.AfterRetryHandler 0xd4e360}] <nil>} {[] <nil>} {[] <nil>}} {3 0s 0s 0s 0s} 0001-01-01 00:00:00 +0000 UTC 2021-12-31 13:32:16.3718781 +0530 IST m=+1.933893401 0xc00001f980 0xc0002fc800 <nil> 0xc0002cb980 <nil> 0 {
+  Bucket: "locallin07001234",
+  ExpectedBucketOwner: "",
+  ObjectLockConfiguration: {
+    ObjectLockEnabled: "Enabled",
+    Rule: {
+      DefaultRetention: {
+        Days: 30,
+        Mode: "Compliance"
+      }
+    }
+  },
+  RequestPayer: "",
+  Token: ""
+} <nil> {
+
+}  0 <nil> 0s false map[] 0001-01-01 00:00:00 +0000 UTC false [] [] 0s <nil> false 0xc000043c80}
+2021/12/31 13:32:16 main.go:347: {
+
+}
+2021/12/31 13:32:16 main.go:186:  [*] Awaiting file modification event
